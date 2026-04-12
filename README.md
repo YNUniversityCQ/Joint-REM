@@ -1,6 +1,6 @@
 # Joint-REM
 
-# SAM Enhanced Semantic Segmentation for Remote Sensing Imagery Without Additional Training
+# Joint Sensor Placement Optimization and Source Location Representation for Radio Map Construction Under Extremely Sparse Observations
 
 ## 🚀 Project Overview
 
@@ -19,42 +19,6 @@ Semantic segmentation models for remote sensing imagery often suffer from issues
 
 
 This repository provides the code for **GeoSeg** (semantic segmentation model training), **SAM** (automatic mask generation from foundation models), and **SESSRS** (our proposed post-processing algorithm).
-
----
-
-## ⚙️ Installation
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/qycools/SESSRS.git
-cd SESSRS
-```
-
-### 2️⃣ Set Up Environments
-
-#### 📌 GeoSeg (Semantic Segmentation Model)
-
-```bash
-conda create -n env_SESSRS_GeoSeg python=3.8
-conda activate env_SESSRS_GeoSeg
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-pip install -r requirements_GeoSeg.txt
-```
-
-#### 📌 SAM & SESSRS
-
-```bash
-conda create -n env_SESSRS_SAM python=3.9
-conda activate env_SESSRS_SAM
-pip3 install torch==1.13.1 torchvision==0.14.1 --extra-index-url https://download.pytorch.org/whl/cu113
-conda install -c "nvidia/label/cuda-11.7.1" cuda-toolkit
-python -m pip install 'git+https://github.com/MaureenZOU/detectron2-xyz.git'
-pip install git+https://github.com/cocodataset/panopticapi.git
-python -m pip install -r requirements_SAM.txt
-cd SAM/semantic_sam/body/encoder/ops
-python setup.py build install --user
-```
 
 ---
 
