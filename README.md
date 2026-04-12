@@ -14,7 +14,7 @@ Sampling-based construction of radio environment maps often underperforms becaus
 
 ### 🔹 RadioMapSeer
 
-- [Official GitHub](https://github.com/Junjue-Wang/LoveDA](https://ieee-dataport.org/documents/dataset-pathloss-and-toa-radio-maps-localization-application).
+- [Official Data](https://ieee-dataport.org/documents/dataset-pathloss-and-toa-radio-maps-localization-application).
 
 ### 🔹 Cellular Radio
 
