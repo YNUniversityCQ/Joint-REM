@@ -4,7 +4,7 @@
 
 ## 🚀 Project Overview
 
-Semantic segmentation models for remote sensing imagery often suffer from issues such as fragmented predictions and inaccurate boundaries due to label inaccuracies. This project introduces a **simple yet effective framework** to enhance segmentation results using **Segment Anything Model (SAM)** and other general-purpose vision models **without additional training**.
+Sampling-based construction of radio environment maps often underperforms because observation points are limited in number and sparsely distributed. Here, we propose a radio map construction framework that jointly optimizes sensor deployment and models source-location uncertainty. The proposed method does not require a larger pool of candidate samples and represents transmitter locations as heatmaps.
 
 <img src="framework.png">
 
