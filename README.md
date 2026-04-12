@@ -6,6 +6,8 @@
 
 Sampling-based construction of radio environment maps often underperforms because observation points are limited in number and sparsely distributed. Here, we propose a radio map construction framework that jointly optimizes sensor deployment and models source-location uncertainty. The proposed method does not require a larger pool of candidate samples and represents transmitter locations as heatmaps.
 
+<img src="overview.png">
+
 <img src="framework.png">
 
 ### 🔹 Key Features:
